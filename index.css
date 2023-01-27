@@ -5,6 +5,11 @@ body {
     min-width: 400px;
 }
 
+#delete-btn {
+    border: 1px solid #5f9341;
+    background-color: white;
+    color: #5f9341;
+}
 
 input {
     width: 100%;
@@ -12,11 +17,12 @@ input {
     box-sizing: border-box;
     border: solid 1px #5f9341;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 button {
     background-color: #5f9341;
-    border: none;
+    border: 1px solid #5f9341;
     color: white;
     padding: 10px 20px;
     font-weight: bold;
